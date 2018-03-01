@@ -1,6 +1,6 @@
 # Practical Inclusivity San Francisco
 
-Practical Inclusivity SF is a new kind of meetup designed to help the tech industry be better. Each event focuses on a specific inclusivity topic. Each event begins with a speaker who introduces the concept for the evening. We follow with an hour long facilitated group discussion.
+Practical Inclusivity SF is a new kind of meetup designed to help the tech industry be better. Each event focuses on a different, specific inclusivity topic. The event begins with a speaker who introduces the concept for the evening, followed with an hour long facilitated group discussion about the topic.
 
 Our first meetup will be held on March 13th, 2018 at 6pm PDT. If you would like to attend, [please register here](https://nebrius.typeform.com/to/GRkZvj). See you there!
 
@@ -11,11 +11,11 @@ Our first meetup will be held on March 13th, 2018 at 6pm PDT. If you would like 
 Practical Inclusivity SF is a space where attendees can learn practical steps they can take at a grass-roots level to make their corner of the tech industry better.
 
 Practical Inclusivity is a space for:
-- Those who care about building inclusive communities
+- Those who care about building inclusive teams, organizations, and communities
 - Those already working on inclusivity efforts to share what they're working on and what they've learned
-- Those looking to start, or get involved in, inclusivity efforts in their current communities
+- Those looking to start, or get involved in, inclusivity efforts in their current teams, organizations, and communities
 
-We believe that by sharing and learning from our experiences, we can add our voice to the broader community of organizations working to establish best practices for building and supporting inclusive workplaces.
+We believe that by sharing and learning from each others' experiences, we can add our voice to the broader community of organizations working to establish best practices for building and supporting inclusive workplaces.
 
 ## Values
 
@@ -25,7 +25,7 @@ Practical Inclusivity SF is a unique type of event. We bring together people fro
 
 **Respect**: We value conversation and collaboration over debates and arguments.
 
-**Experiences**: We will prioritize the stories, experiences, and feelings of marginalized people and over the comfort of privileged people.
+**Experiences**: We will prioritize the stories, experiences, and feelings of marginalized people over the comfort of privileged people.
 
 **Intersectionality**: Effective inclusivity requires that we consider the many combinations and categories of marginalizations.
 
@@ -35,4 +35,4 @@ We have a [Code of Conduct](./code_of_conduct.md) in place to ensure that these 
 
 ## Who are we and how can I help?
 
-Practical Inclusivity SF is organized by Amanda Glosson and Bryan Hughes currently. If you would like to help us organize, that's great! Please open an issue or email us at `practical-inclusivity-sf@nebri.us` to let us know.
+Practical Inclusivity SF is organized by [Amanda Glosson](https://twitter.com/amandaglosson) and [Bryan Hughes](https://twitter.com/nebrius) currently. If you would like to help us organize, that's great! Please open an issue or email us at `practical-inclusivity-sf@nebri.us` to let us know.
