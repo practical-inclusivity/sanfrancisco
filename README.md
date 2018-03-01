@@ -2,7 +2,7 @@
 
 Practical Inclusivity SF is a new kind of meetup designed to help the tech industry be better. Each event focuses on a different, specific inclusivity topic. The event begins with a speaker who introduces the concept for the evening, followed with an hour long facilitated group discussion about the topic.
 
-Our first meetup will be held on March 13th, 2018 at 6pm PDT. If you would like to attend, [please register here](https://nebrius.typeform.com/to/GRkZvj). See you there!
+Our first meetup will be held on March 13th, 2018 at 6pm PDT. If you would like to attend, [please register here](https://nebrius.typeform.com/to/GRkZvj). See you there! For our first meetup, we're going to keep the topic general: what are common challenges people face in building diverse teams, organizations, and communities, with Bryan and Amanda speaking briefly on the topic.
 
 ## Mission
 
