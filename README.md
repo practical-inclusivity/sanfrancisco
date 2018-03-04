@@ -1,8 +1,15 @@
 # Practical Inclusivity San Francisco
 
-Practical Inclusivity SF is a new kind of meetup designed to help the tech industry be better. Each event focuses on a different, specific inclusivity topic. The event begins with a speaker who introduces the concept for the evening, followed with an hour long facilitated group discussion about the topic.
+Practical Inclusivity SF is a new kind of meetup designed to help the tech industry be better. Each event focuses on a different, specific inclusivity topic. The event begins with a speaker who introduces the concept for the evening, followed with a facilitated group discussion about the topic.
 
-Our first meetup will be held on March 13th, 2018 at 6pm PDT. If you would like to attend, [please register here](https://nebrius.typeform.com/to/GRkZvj). See you there! For our first meetup, we're going to keep the topic general: what are common challenges people face in building diverse teams, organizations, and communities, with Bryan and Amanda speaking briefly on the topic.
+Our first meetup will be held on March 13th, 2018 at 6pm PDT. If you would like to attend, [please register here](https://nebrius.typeform.com/to/GRkZvj). See you there! For our first meetup, we're going to keep the topic general: what are common challenges people face in building diverse teams, organizations, and communities, with Amanda Glosson and Bryan Hughes speaking briefly on the topic.
+
+Agenda:
+
+6:00pm Doors open, dinner and socializing
+6:30pm Amanda and Bryan introduce the meetup and tonight's topic
+7:00pm Group Discussion
+8:30pm Doors close
 
 We ensure that each venue we use is wheelchair accessible and close to public transportation. We serve food and non-alcoholic beverages at each event (our events are alcohol and substance-free events). We ensure that there are vegetarian and gluten-free options, and can accomodate other food restrictions on request. If you have any other accesibility requests, please let us know and we'll do our best to accomodate.
 
