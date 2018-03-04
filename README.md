@@ -4,7 +4,7 @@ Practical Inclusivity SF is a new kind of meetup designed to help the tech indus
 
 Our first meetup will be held on March 13th, 2018 at 6pm PDT. If you would like to attend, [please register here](https://nebrius.typeform.com/to/GRkZvj). See you there! For our first meetup, we're going to keep the topic general: what are common challenges people face in building diverse teams, organizations, and communities, with Amanda Glosson and Bryan Hughes speaking briefly on the topic.
 
-Agenda:
+**Agenda:**
 
 6:00pm Doors open, dinner and socializing
 
