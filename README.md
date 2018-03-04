@@ -7,8 +7,11 @@ Our first meetup will be held on March 13th, 2018 at 6pm PDT. If you would like 
 Agenda:
 
 6:00pm Doors open, dinner and socializing
+
 6:30pm Amanda and Bryan introduce the meetup and tonight's topic
+
 7:00pm Group Discussion
+
 8:30pm Doors close
 
 We ensure that each venue we use is wheelchair accessible and close to public transportation. We serve food and non-alcoholic beverages at each event (our events are alcohol and substance-free events). We ensure that there are vegetarian and gluten-free options, and can accomodate other food restrictions on request. If you have any other accesibility requests, please let us know and we'll do our best to accomodate.
