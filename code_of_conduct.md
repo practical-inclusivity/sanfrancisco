@@ -8,7 +8,7 @@ If someone makes you or someone else uncomfortable at a Practical inclusivity SF
 
 Practical Inclusivity SF's organizers are:
 
-- [Amanda Glosson](https://twitter.com/amandaglosson) (@aglosson)
+- [Amanda Glosson](https://twitter.com/amandaglosson) (@amandaglosson)
 - [Bryan Hughes](https://twitter.com/nebrius) (@nebrius)
 
 ## The Quick Version
