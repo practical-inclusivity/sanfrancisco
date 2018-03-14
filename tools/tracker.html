@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+<style>
+.user > button {
+  margin: 10px;
+}
+
+.user > span {
+  margin-right: 10px;
+}
+
+.timer {
+  margin: 10px;
+}
+.timer span {
+  margin-right: 10px;
+}
+
+.clearSpeakerCounts {
+  margin-bottom: 10px;
+}
+</style>
+<script type="text/babel">
+
+const TIME_LIMIT = 5 * 60;
+const data = JSON.parse(localStorage.getItem('data')) || [];
+let timeLeft = 0;
+let currentlySpeaking = '';
+let isTimerPaused = false;
+let timeout;
+
+function onAddUser() {
+  const newName = document.getElementById('newUserName').value;
+  document.getElementById('newUserName').value = '';
+  data.push({
+    name: newName,
+    turns: 0
+  });
+  save();
+  render();
+}
+
+function onRemoveUser(index) {
+  data.splice(index, 1);
+  save();
+  render();
+}
+
+function tick() {
+  if (!isTimerPaused && timeLeft > 0) {
+    timeLeft--;
+    render();
+    clearTimeout(timeout);
+    timeout = setTimeout(tick, 1000);
+  }
+}
+
+function onPause() {
+  isTimerPaused = !isTimerPaused;
+  if (!isTimerPaused) {
+    tick();
+  }
+  render();
+}
+
+function onSpeak(index) {
+  data[index].turns++;
+  save();
+  currentlySpeaking = data[index].name;
+  timeLeft = TIME_LIMIT;
+  isTimerPaused = false;
+  tick();
+  render();
+}
+
+function onClearSpeakerCounts() {
+  for (const entry of data) {
+    entry.turns = 0;
+  }
+  save();
+  render();
+}
+
+function save() {
+  localStorage.setItem('data', JSON.stringify(data));
+}
+
+function render() {
+  ReactDOM.render(
+    (<div>
+      <div className="timer">
+        <div>
+          <span>Time Remaining:</span>
+          <span>{timeLeft}</span>
+          <progress id="timerBar" value={timeLeft} max={TIME_LIMIT}></progress>
+          <button onClick={onPause}>{isTimerPaused ? 'Resume' : 'Pause'}</button>
+        </div>
+        <div>
+          <span>Currently Speaking:</span>
+          <span>{currentlySpeaking}</span>
+        </div>
+      </div>
+      <div className="clearSpeakerCounts">
+        <button onClick={onClearSpeakerCounts}>Clear speaker counts</button>
+      </div>
+      <div>
+        <input id="newUserName" type="text" placeholder="name"></input>
+        <button onClick={onAddUser}>Add User</button>
+      </div>
+      <div>
+        {data.map((user, index) => (
+          <div className="user" key={index}>
+            <button onClick={() => onSpeak(index)}>speak</button>
+            <span>{user.turns}</span>
+            <span>{user.name}</span>
+            <a href="#" onClick={() => onRemoveUser(index)}>remove</a>
+          </div>
+        ))}
+      </div>
+    </div>),
+    document.getElementById('root')
+  );
+}
+
+render();
+
+</script>
+    <!--
+      Note: this page is a great way to try React but it's not suitable for production.
+      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+
+      To set up a production-ready React build environment, follow these instructions:
+      * https://reactjs.org/docs/add-react-to-a-new-app.html
+      * https://reactjs.org/docs/add-react-to-an-existing-app.html
+
+      You can also use React without JSX, in which case you can remove Babel:
+      * https://reactjs.org/docs/react-without-jsx.html
+      * https://reactjs.org/docs/cdn-links.html
+    -->
+  </body>
+</html>
